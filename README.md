@@ -153,25 +153,6 @@ else:
 
 ---
 
-## API Key Management
-
-API keys are generated during user registration and payment processing. The API keys have specific limits based on the subscription package (Standard or Premium).
-
-### Key Attributes
-
-| Attribute        | Description                                  |
-|------------------|----------------------------------------------|
-| `paid`           | Payment status (1 = Paid, 0 = Not Paid).     |
-| `active`         | Key status (1 = Active, 0 = Inactive).       |
-| `usage_count`    | Number of API requests made.                 |
-| `success_requests`| Number of successful API requests.          |
-| `error_requests` | Number of failed API requests.               |
-| `last_used`      | Timestamp of the last API request.           |
-| `last_reset`     | Timestamp when usage counts were last reset. |
-| `package`        | User’s subscription package (P1 or P2).      |
-
----
-
 ## Rate Limiting and Quota
 
 The API enforces rate limits to prevent overuse and abuse. Each API key has a maximum number of allowed requests per month, based on the user’s subscription plan.
