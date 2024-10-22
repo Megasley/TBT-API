@@ -214,4 +214,4 @@ Test keys have the suffix `TEST` and can be used to perform tests without affect
 
 ---
 
-This documentation provides an overview of the available API endpoints, including Python sample requests. Ensure to replace placeholder values with actual API keys and data before making any requests..
+This documentation provides an overview of the available API endpoints, including Python sample requests. Ensure to replace placeholder values with actual API keys and data before making any requests.
